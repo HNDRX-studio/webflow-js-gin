@@ -130,7 +130,7 @@ const sketch = ({ context, canvas, width, height }) => {
   let mesh = null;
 
   // Load dragon GLTF model
-  new THREE.GLTFLoader().load("src/dragon.glb", (gltf) => {
+  new THREE.GLTFLoader().load("src/hndrx-gin-bottle.glb", (gltf) => {
     const dragon = gltf.scene.children.find((mesh) => mesh.name === "Dragon");
 
     // Just copy the geometry from the loaded model
