@@ -6,16 +6,16 @@ const THREE = require("three");
 global.THREE = THREE;
 
 // Import extra THREE plugins
-require("three/examples/js/controls/OrbitControls");
-require("three/examples/js/geometries/RoundedBoxGeometry.js");
-require("three/examples/js/loaders/GLTFLoader.js");
-require("three/examples/js/loaders/RGBELoader.js");
-require("three/examples/js/postprocessing/EffectComposer.js");
-require("three/examples/js/postprocessing/RenderPass.js");
-require("three/examples/js/postprocessing/ShaderPass.js");
-require("three/examples/js/postprocessing/UnrealBloomPass.js");
-require("three/examples/js/shaders/LuminosityHighPassShader.js");
-require("three/examples/js/shaders/CopyShader.js");
+require("https://cdn.jsdelivr.net/npm/three@0.141.0/three/examples/js/controls/OrbitControls");
+require("https://cdn.jsdelivr.net/npm/three@0.141.0/three/examples/js/geometries/RoundedBoxGeometry.js");
+require("https://cdn.jsdelivr.net/npm/three@0.141.0/three/examples/js/loaders/GLTFLoader.js");
+require("https://cdn.jsdelivr.net/npm/three@0.141.0/three/examples/js/loaders/RGBELoader.js");
+require("https://cdn.jsdelivr.net/npm/three@0.141.0/three/examples/js/postprocessing/EffectComposer.js");
+require("https://cdn.jsdelivr.net/npm/three@0.141.0/three/examples/js/postprocessing/RenderPass.js");
+require("https://cdn.jsdelivr.net/npm/three@0.141.0/three/examples/js/postprocessing/ShaderPass.js");
+require("https://cdn.jsdelivr.net/npm/three@0.141.0/three/examples/js/postprocessing/UnrealBloomPass.js");
+require("https://cdn.jsdelivr.net/npm/three@0.141.0/three/examples/js/shaders/LuminosityHighPassShader.js");
+require("https://cdn.jsdelivr.net/npm/three@0.141.0/three/examples/js/shaders/CopyShader.js");
 
 const Stats = require("stats-js");
 const { GUI } = require("dat.gui");
